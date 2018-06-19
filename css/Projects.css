@@ -1,0 +1,160 @@
+#Projects{
+	background-color:black;
+	width:100%;
+	border-top:4px #00BCDB solid;
+	color:white;
+	border-bottom:4px #00BCDB solid;
+	background: url("../img/DevProject.jpg") no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#Projects h1{
+	font-size:60pt;
+	padding-top:50pt;
+	padding-bottom:10pt;
+	font-family:'Baloo Thambi';
+}
+
+#Projects h2{
+	font-size:40pt;
+	padding-left:10%;
+	padding-right:10%;
+	font-family:'Baloo Thambi';
+}
+
+#Projects h3{
+	font-size:20pt;
+	padding:20pt;
+	font-family:'Baloo Thambi';
+}
+
+#Projects p{
+	font-family: 'Baloo Thambi';
+	font-size:16pt;
+	margin:50pt;
+}
+
+#FirstProject{
+	background-color:black;
+	border-bottom:4px solid #00BCCD;
+}
+
+.FirstProject .rechts p{
+	color:white;
+	font-size:16pt;
+	line-height: 20pt;
+	padding:35px;
+	font-family:'Baloo Thambi';
+}
+
+#FirstProject .rechts{
+	border-left:4px solid #00BCCD;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#FirstProject .links p{
+	height:200px;
+	padding:-40px;
+}
+
+#FirstProject .links p img{
+	position:relative;
+	height:95%;
+}
+
+
+#SecondProject{
+	background-color:black;
+	border-bottom:4px solid #00BCCD;
+}
+
+#SecondProject .links2 p{
+	color:white;
+	font-size:16pt;
+	line-height: 20pt;
+	padding:35px;
+	font-family:'Baloo Thambi';
+}
+
+#SecondProject .links2{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:0px;
+	border-right:4px solid #00BCCD;
+}
+
+#SecondProject .rechts2 p{
+	height:200px;
+	padding:-40px;
+}
+
+#SecondProject .rechts2 p img{
+	position:relative;
+	height:100%;
+	margin-bottom:15px;
+}
+
+#MainContact{
+	border-top:4px black solid;
+}
+
+@media(min-width: 1640px){
+	/*#Projects{
+	background-image: url("../img/DevProject-big.jpg");
+	background-width:100%;
+	}*/
+}
+
+@media (max-width: 1024px) {
+	
+}
+
+/*-- md --*/
+@media (max-width: 768px) {
+	/*#Projects{
+	background-image: url("../img/DevProject-small.jpg");
+	}*/
+}
+
+/*-- sm --*/
+@media (max-width: 667px) {
+	#SecondProject .links2{
+		border-right:0px solid black;
+	}
+
+	#FirstProject .rechts{
+		border-left:4px solid black;
+	}
+
+	#FirstProject img{
+		margin-top:15px;
+	}
+
+	.rechts2{
+		margin-bottom:15pt;
+	}
+
+	#Projects h1{
+	font-size:45pt !important;
+	}
+
+	#Projects h2{
+	font-size:30pt !important;
+	line-height:30pt;
+	}
+	.button{
+		font-size:14pt;
+	}
+}
+
+@media(max-width:355px){
+#FirstProject .links p img{
+	position:relative;
+	height:90%;
+}
+
+}

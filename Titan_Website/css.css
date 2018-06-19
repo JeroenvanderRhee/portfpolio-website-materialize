@@ -1,0 +1,197 @@
+body	{
+font-family:Verdana;
+font-size:14px;
+}
+
+header	{
+width:900px;
+margin:auto;
+}
+
+header h1 {
+padding: 20px 5px 5px 5px;
+color:black;
+font-size:30pt;
+font-weight:normal;
+font-family:Impact;
+}
+
+#headwrapper		 {
+/*background-color:#FFFFFF*/
+background-color:white;
+width:100%;
+}
+
+nav				{
+width:900px;
+margin:auto;
+text-align: right;
+}
+
+nav a				{
+font-family:Impact;
+text-decoration:none;
+color:black;
+display:inline-block;
+height:50px;
+background-color:white;
+width:200px;
+text-align:center;
+line-height:50px;
+}
+
+nav a:hover		 {
+background-color:white;
+color:#00C9FD;
+}
+
+article			{
+/*background-color:#CCCCCC;*/
+width:900px;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+#contact		{
+/*background-color:#CCCCCC;*/
+width:900px;
+width:100%;
+}
+
+footer			{
+background-color:#00C9FD;
+width:900px;
+width:100%;
+}
+
+img											 {
+display:block;
+}
+
+#bigimage p 						 {
+color:#00C9FD;
+background-color:#FFFFFF;
+font-size:12pt;
+width:350px;
+position:absolute;
+bottom:30px;
+right:30px;
+}
+
+#bigimage			 {
+height:550px;
+width: 100%;
+background-image: url("afbeeldingen/titan2.jpg");
+background-size:cover;
+background-position:center;
+position:relative;
+}
+
+* {
+margin:0;
+}
+
+p				 {
+padding: 20px;
+}
+
+article h1	{
+padding:10px;
+font-family: Impact;
+font-size: 25pt;
+text-align: center;
+}
+
+article img	{
+width: 348px;
+float: right;
+margin:20px 20px;
+}
+
+p a 	{
+font-weight: bold;
+color:#00C9FD;
+text-decoration: none;
+}
+
+p a:hover	{
+font-size:105%;
+color:black;
+}
+
+#contact a 	{
+text-decoration: none;
+color:black;
+font-weight: bold;
+}
+
+footer			 {
+height:150px;
+}
+
+footer p	 {
+color:white
+}
+
+.focus		 {
+color:#00C9FD;
+text-decoration:none;
+}
+
+main					{
+width:900px;
+margin:auto;
+}
+
+.bigleft		{
+width: 590px;
+height:515px;
+margin-right:10px;
+float:left;
+}
+
+.smallright	 {
+float:right;
+width: 290px;
+height :1180;
+margin-right:10px;
+}
+
+.lastarticle			{
+clear:both;
+}
+
+.center			{
+text-align:center;
+}
+
+table				{
+width:900px;
+margin:auto;
+margin-top:20px;
+margin-bottom:20px;
+padding:20px;
+font-family:Impact;
+font-size:14pt;
+}
+
+#contact table a		 {
+color:#00C9FD;
+}
+
+#contact table a:hover		 {
+color:black;
+}
+
+#contact table img				 {
+float:left;
+width:50px;
+height:50px;
+margin:10px;
+}
+
+footer p			{
+width:860px;
+margin:auto;
+}
+

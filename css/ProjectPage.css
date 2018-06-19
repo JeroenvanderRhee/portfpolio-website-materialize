@@ -1,0 +1,121 @@
+#Slider{
+	border-top:4px solid #00BCDB;
+	border-bottom:4px solid #00BCDB;
+	background-color:rgb(31,31,31);
+}
+
+#Slider h1{
+	color:white;
+	text-align:center;
+	font-size:60pt;
+	padding-top:25pt;
+	padding-bottom:10pt;
+	font-family:'Baloo Thambi';
+}
+
+
+.Slides {
+	display:none;
+	width:100%;
+}
+
+.Slide-left{
+	font-size:20pt;
+	color:white;
+	cursor:pointer
+}
+
+.Slide-right{
+	font-size:20pt;
+	color:white;
+	cursor:pointer;
+}
+
+.Round{height:1pt; 
+	width:1pt; 
+	border-radius:50%; 
+	background-color:transparent; 
+	color:#fff; 
+	display:inline-block; 
+	padding:8pt; 
+	text-align:center;
+	border:2pt solid white;
+	cursor:pointer;
+}
+
+.Round:hover{
+	background-color:white;
+}
+
+.hoogte{
+	height:50pt;
+	background-color:rgb(31,31,31);
+}
+
+#Text p{
+	font-family:'Baloo Thambi';
+	font-size:16pt;
+	color:white;
+	line-height: 20pt;
+	padding-right:20%;
+	padding-left:20%;
+	padding-bottom:20pt;
+}
+
+#Text .first{
+	padding-top:30pt;
+}
+
+.ButtonMargin{
+	margin-bottom:40pt;
+	margin-top:40pt;
+	padding:0px !important;
+}
+
+#Text{
+	background-color:black;
+	border-bottom:4px solid #00BCDB;
+}
+
+.alignleft{
+	text-align:left;
+}
+
+@media(min-width: 1640px){
+
+}
+
+@media (max-width: 1024px) {
+	
+}
+
+/*-- md --*/
+@media (max-width: 768px) {
+#Slider h1{
+	font-size:35pt !important;
+}
+
+.Round{
+	padding:4pt;
+}
+.Slide-left, .Slide-right{
+	font-size:16pt;
+}
+
+.Slide-left{
+	float:right;
+	margin-right:5px;
+}
+
+.Slide-right{
+	float:left;
+	margin-left:5px;
+}
+}
+
+/*-- sm --*/
+@media (max-width: 667px) {
+	h1{
+	font-size:45pt !important;
+	}
+}

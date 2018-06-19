@@ -1,80 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<title>Portfolio website | Jeroen van der Rhee</title>
+	<!--Description-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jeroen van der Rhee | Portfolio Website</title>
+	<meta name="author" content="Jeroen van der Rhee">
+
+	<!--icon-->
+	<link rel="icon" href="img/Favicon.png">
+
+	<!-- Css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+	<link rel="stylesheet" href="css/flexiblegs.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-  <nav>
-    <div class="nav-wrapper grey">
-      <a href="#" class="brand-logo">
-      	<img src="img/Logo.png" alt="Logo Jeroen van der Rhee" class="logo-edit"/>
-      </a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down nav-edit">
-        <li><a href="sass.html">About Me</a></li>
-        <li><a href="badges.html">Projects</a></li>
-        <li><a href="collapsible.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <header class="edit-header">
-    <h1 class="white-text center">Jeroen van der Rhee</h1>
-    <h3 class="white-text center">Innovative webdeveloper</h3>
-  </header>
-  <!-- particles.js container -->
-   <div id="particles-js">
-     
-   </div>
+	<?php require_once("Includes/header.php"); ?>
+	<section>
+		<div class="wrap xl-center buttons">
+			<div id="welcome">
+				<div class="col xl-1-1">
+					<header class="edit-header">
+						<h1 id="GreetVisitor">
+							<noscript>
+								Hello
+							</noscript>
+						</h1>
+						<h2 id="Introduce">
+							My name is Jeroen van der Rhee
+						</h2>
+						<h3 id="IntroduceDescription">
+							And I am a professional web developer
+						</h3>
+						<p id="IntroduceMeParagraph">
+							<a href="AboutMe.php">
+								<span class="button">
+									ABOUT ME
+								</span>
+							</a>
+						</p>
+	  				</header>
+		  			<!-- particles.js container -->
+			   		<div id="particles-js">
+			   		</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-   <div class="row">
-      <div class="col s4 edit-collum-features">
-          <i class="fas fa-users edit-icons-features"></i>
-          <h4 class="edit-features-h4">User experience</h4>
-          <p class="edit-features-p">
-            The challenge in every project is to give the users a experience they never forget. In consultation with the customer, we choose a CMS system that fits by the project.
-          </p>
-          <p class="edit-btn-features-p">
-            <a class="btn-large ">
-            Read more...
-            </a>
-          </p><!-- 
-          <a class="waves-effect waves-light btn-large edit-btn-readmore right"><i class="fas fa-book"></i>Read more...</a> -->
-      </div>
-      <div class="col s4 edit-collum-features">
-        <!-- Promo Content 2 goes here -->
-        hoi
-      </div>
-      <div class="col s4 edit-collum-features">
-        <!-- Promo Content 3 goes here -->
-        hoi
-      </div>
-    </div>
-  
+	<section>		
+		<div class="wrap xl-center" id="HeadProject">
+			 <div class="col xl-1-2 sm-1-1 links">
+  				<p>
+  					<img src="img/Game-Project.png" alt="Project Game, mouse game, mouse, Project Jeroen, Sven, Sven van Asperen, Jeroen van der Rhee"/>
+  				</p>
+			 </div>
+			 <div class="col xl-1-2 sm-1-1 rechts">
+			 	<p>
+			 		The goal of this project was to build a game. The game was about a mouse who wanted cheese. For this game, I did the graphics.
+				</p>
+				<p>
+					<a href="Projects.php">
+						<span class="button">
+						MORE PROJECTS
+						</span>
+					</a>
+				</p>
+			 </div>
+		</div>
+	</section>
 
-   <footer class="page-footer grey">
-      <div class="container">
-       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Disclaimer:</h5>
-           <p class="grey-text text-lighten-4">©<?=date('Y')?> Jeroen van der Rhee | This website was proudly created by www.jeroenvanderrhee.nl for Bookyourcar. If you have questions or complaints about mine projects, please contact me.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-         <h5 class="white-text">Links:</h5>
-           <ul>
-             <li><a class="grey-text text-lighten-3" href="about_us.php">About us</a></li>
-             <li><a class="grey-text text-lighten-3" href="projects.php">Projects</a></li>
-             <li><a class="grey-text text-lighten-3" href="contact.php">Contact</a></li>
-           </ul>
-        </div>
-       </div>
-      </div>
-    </footer>
+	<section>
+		<div class="wrap xl-center buttons">
+			<div id="MainContact">
+				<div class="col xl-1-1">
+					<h2>
+						CONTACT ME
+					</h2>
+					<span class="mainalign">
+						<p>			
+							Do you want to say hello, perhaps ask a question or two? Please contact me.
+						</p>
+					</span>
+					<p>
+						<a href="Contact.php">
+							<span class="button">
+								CONTACT ME
+							</span>
+						</a>
+					</p>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<?php require_once("Includes/footer.php"); ?>
+	<!-- Script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/time.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/app.js"></script>
 </body>
-<script src="js/materialize.min.js"></script>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
-
 </html>

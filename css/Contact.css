@@ -1,0 +1,145 @@
+#Contact{
+	background-color:black;
+	width:100%;
+	border-top:4px #00BCDB solid;
+	color:white;
+	border-bottom:4px #00BCDB solid;
+	background-image: url("../img/Contact.jpg");
+	background: url("../img/Contact.jpg") no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+#Contact h1{
+	font-size:60pt;
+	padding-top:50pt;
+	padding-bottom:30pt;
+	font-family:'Baloo Thambi';
+}
+
+#Contact h2{
+	font-size:40pt;
+	padding-left:10%;
+	padding-right:10%;
+	font-family:'Baloo Thambi';
+	margin-bottom:70pt;
+}
+
+#Contact h3{
+	font-size:20pt;
+	padding:20pt;
+	font-family:'Baloo Thambi';
+}
+
+#Contact p{
+	font-family: 'Baloo Thambi';
+	font-size:16pt;
+	margin:50pt;
+}
+
+#ContactForm{
+	background-color:black;
+	border-bottom:4px solid #00BCDB;
+	width:100%;
+}
+
+.field{
+	margin:10pt;
+	background-color:black;
+	font-family:'Baloo Thambi';
+	font-size:16pt;
+	color:white;
+	padding:5pt;
+	width:480pt;
+	border:4px solid #00BCDB;
+	border-radius:10px;
+	margin-top:20pt;
+}
+
+.bigfield{
+	background-color:black;
+	font-family:'Baloo Thambi';
+	font-size:16pt;
+	color:white;
+	padding:5pt;
+	width:480pt;
+	border:4px solid #00BCDB;
+	height:160pt;
+	border-radius:10px;
+	margin:10pt;
+}
+
+.SendButton{
+	background-color:black;
+	padding:20px;
+	padding-right:40px;
+	padding-left:40px;
+	border:4px #00BCDB solid ;
+	border-radius:10px;
+	font-weight:bold;
+	font-family:'Baloo Thambi';
+	font-size:16pt;
+	color:white;
+	margin:10pt;
+	margin-bottom:20pt;
+}
+
+.SendButton:hover{
+	background-color:#00BCCD;
+}
+
+
+
+
+
+@media(min-width: 1640px){
+
+}
+
+@media (max-width: 1024px) {
+	
+}
+
+/*-- md --*/
+@media (max-width: 768px) {
+		.field{
+		width:360pt;
+	}
+
+	.bigfield{
+		width:360pt;
+	}
+}
+
+/*-- sm --*/
+@media (max-width: 667px) {
+	.field{
+		width:224pt;
+	}
+
+	.bigfield{
+		width:224pt;
+	}
+
+	#Contact h1{
+	font-size:45pt !important;
+	}
+
+	#Contact h2{
+	font-size:30pt !important;
+	line-height:30pt;
+	}
+}
+
+@media(max-width:355px){
+	.field{
+		width:192pt;
+	}
+
+	.bigfield{
+		width:192pt;
+	}
+}
